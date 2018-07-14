@@ -1,0 +1,13 @@
+students.txt pricem 1234567890
+house.pdf jatkins 2234567890
+users.txt kevin_tomlinson 3334567890
+accounts.mdb kevin_tomlinson 4444567890
+vacation.jpg smitty83 5555567890
+calendar.cpp burtons 6666667890
+test.txt JamesTheDude 7777777890
+NoTimeStamp.txt TheElement
+TimeShort.cpp MichaelJordan 400
+TimeLong.js LebronJames 12345678910
+TooManyArguments.json Pikachu Bulbasaur 8888888890
+NotANumber.txt cameron OneTwoThreeFour
+perfectlyFine.txt MeMyself 9999999990

@@ -1,0 +1,4 @@
+cout << "" << endl;
+double quotes for strings
+single quotes for single character
+(int)var //print out numeric value of value of variable
