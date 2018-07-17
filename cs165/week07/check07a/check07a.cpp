@@ -4,10 +4,10 @@
 
 #include <iostream>
 #include <string>
+#include "icecream.h"
 using namespace std;
 
-#include "icecream.h"
-
+double IceCream :: salesTax = 0.06;
 /*****************************************
  * Function: Main
  * Purpose: Tests the Ice Cream class
@@ -31,7 +31,7 @@ int main()
    cin >> tax;
 
    // TODO: Set the sales tax static member variable here
-
+   IceCream :: salesTax = tax;
 
 
    cout << "\nMenu:\n";

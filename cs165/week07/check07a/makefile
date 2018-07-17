@@ -1,9 +1,9 @@
 ###############################################################
 # Program:
 #     Checkpoint 07a, Static
-#     Brother {Burton, Falin, Ercanbrack}, CS165
+#     Brother Cook, CS165
 # Author:
-#     your name here
+#     Aaron Shiffler
 # Summary:
 #     Summaries are not necessary for checkpoint assignments.
 ###############################################################
