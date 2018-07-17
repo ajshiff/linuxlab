@@ -23,4 +23,4 @@ public:
    void applyThrustBottom();
    void advance();
    void draw();
-}
+};

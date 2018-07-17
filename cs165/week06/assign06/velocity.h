@@ -11,4 +11,4 @@ public:
    float getDy();
    void setDx(float);
    void setDy(float);
-}
+};
