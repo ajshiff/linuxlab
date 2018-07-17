@@ -6,11 +6,10 @@
 // #endif
 
 using namespace std;
-
 class Lander
 {
 private:
-
+   Point point;
 public:
    Lander();
    Point getPoint() const;

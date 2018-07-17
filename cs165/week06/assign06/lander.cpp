@@ -1,6 +1,7 @@
 #include "lander.h"
 #include "velocity.h"
 #include "point.h"
+#include "uiDraw.h"
 
 using namespace std;
 
@@ -8,7 +9,7 @@ using namespace std;
 * 
 **************************************************************************/
 Lander :: Lander() {
-
+   point = new Point(0,0);
 }
 
 /*************************************************************************
@@ -113,6 +114,6 @@ void Lander :: advance() {
 * 
 **************************************************************************/
 void Lander :: draw() {
-
+   drawLander(point);
 }
 
