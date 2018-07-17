@@ -5,8 +5,8 @@ class Velocity()
 private:
 
 public:
-   Velocity()
-   Velocity(float, float)
+   Velocity();
+   Velocity(float, float);
    float getDx();
    float getDy();
    void setDx(float);
