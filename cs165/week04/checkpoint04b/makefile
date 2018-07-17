@@ -1,9 +1,9 @@
 ###############################################################
 # Program:
 #     Checkpoint 04b, Classes
-#     Brother {Burton, Falin, Ercanbrack}, CS165
+#     Brother Cook, CS165
 # Author:
-#     your name here
+#     Aaron Shiffler
 # Summary:
 #     Summaries are not necessary for checkpoint assignments.
 ###############################################################
