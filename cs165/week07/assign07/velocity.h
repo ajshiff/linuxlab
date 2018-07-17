@@ -4,7 +4,8 @@ using namespace std;
 class Velocity
 {
 private:
-
+   float dx;
+   float dy;
 public:
    Velocity();
    Velocity(float, float);

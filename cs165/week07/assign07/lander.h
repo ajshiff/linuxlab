@@ -10,6 +10,10 @@ class Lander
 {
 private:
    Point point;
+   Velocity velocity;
+   int fuel;
+   bool shipAlive;
+   bool shipLanded;
 public:
    Lander();
    Point getPoint() const;
