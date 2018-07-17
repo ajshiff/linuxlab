@@ -3,7 +3,8 @@
 
 using namespace std;
 
-class Lander {
+class Lander
+{
 private:
 
 public:

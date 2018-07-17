@@ -1,6 +1,6 @@
 using namespace std;
 
-class Velocity()
+class Velocity
 {
 private:
 
