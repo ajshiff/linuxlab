@@ -30,7 +30,7 @@ IceCream::IceCream(string flavor, float price)
 float IceCream::getTotalPrice() const
 {
    // TODO: Change this to include sales tax
-
+   
    return price;
 }
 

@@ -15,10 +15,10 @@ private:
 public:
    IceCream();
    IceCream(std::string flavor, float price);
-
    float getTotalPrice() const;
    void prompt();
    void display() const;
+   // static double salesTax;
 };
 
 
