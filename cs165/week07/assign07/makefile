@@ -1,6 +1,6 @@
 ###############################################################
 # Program:
-#     Milestone 06, Moon Lander
+#     Milestone 07, Moon Lander
 #     Brother Cook, CS165
 # Author:
 #     Aaron Shiffler
