@@ -11,12 +11,12 @@ public:
    Point getPoint();
    Velocity getVelocity();
    bool isAlive();
-   bool isLanded() : 
-   int getFuel() : 
-   bool canThrust() : 
-   void setLanded(bool) : 
-   void setAlive(bool) : 
-   void setFuel(int) : 
+   bool isLanded();
+   int getFuel();
+   bool canThrust();
+   void setLanded(bool);
+   void setAlive(bool);
+   void setFuel(int);
    void applyGravity(float);
    void applyThrustLeft();
    void applyThrustRight();
