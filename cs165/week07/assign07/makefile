@@ -1,15 +1,13 @@
 ###############################################################
 # Program:
-#     Milestone 07, Moon Lander
+#     Project 07, Moon Lander
 #     Brother Cook, CS165
 # Author:
 #     Aaron Shiffler
 # Summary:
-#     Milestone 06: I set up stub functions for the project
-#     and got it to the point where it compiles and renders
-#     the ship. Mission accomplished!
+#     Project 07: Summary Here!
 # Above and Beyond
-#     Milestone
+#     Above and Beyone Details
 ###############################################################
 
 
