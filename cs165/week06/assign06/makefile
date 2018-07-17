@@ -5,11 +5,11 @@
 # Author:
 #     Aaron Shiffler
 # Summary:
-#     Put your summary code here... 
+#     Milestone 06: I set up stub functions for the project
+#     and got it to the point where it compiles and renders
+#     the ship. Mission accomplished!
 # Above and Beyond
-#     When you submit your final project (not for milestones),
-#     list anything here that you did to go above and beyond
-#     the base requirements for your project.
+#     Milestone
 ###############################################################
 
 
