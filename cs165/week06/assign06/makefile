@@ -1,9 +1,9 @@
 ###############################################################
 # Program:
 #     Milestone 06, Moon Lander
-#     Brother {Burton, Falin, Ercanbrack, Comeau}, CS165
+#     Brother Cook, CS165
 # Author:
-#     your name here
+#     Aaron Shiffler
 # Summary:
 #     Put your summary code here... 
 # Above and Beyond
