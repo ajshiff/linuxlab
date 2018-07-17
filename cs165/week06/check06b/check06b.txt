@@ -1,20 +1,31 @@
 Moon Lander Design Document:
 Problem Description
     Build upon existing tools to complete the moon lander video game. You will need to:
-        1. Implement  
+        1. Implement Lander Class
+        2. Implement Velocity Class
     
 Design Overview
-
+    The program will follow 'The Game Loop' design. This states that every frame, variables will be edited, user input will be checked for, and the screen will be drawn with new data.
+    When the user adds thrust, fuel will be exchanged for a change in overall velocity, represented by dx and dy.
 
 Interface Design
-
+    The screen will display a drawn representation of where the moon lander ship is and the terrain it must navigate. 
+    The user can use the arrow keys to control and give input to the program: 
+        up to thrust down
+        down to thrust up
+        left to thrust right
+        right to thrust left
 
 Algorithms
-
+    Every frame, gravity (dy) should be linearly applied to slowly but consistently pull the ship downwards. The velocity on the horizontal plane (dx) should not be edited unless the user requests so through the arrow keys and has enough fuel. Velocity on the y plane (dy) can be edited through. Position should be checked every frame to determine if the lander has made contact with any critical points (i.e. moon, landing pad, edge of screen).
 
 Data-structures
+    The data structure has been agreed upon in the moon lander overview document which can be viewed at:
+    https://content.byui.edu/file/2315e65e-a34a-48d3-814d-4175a2b74ed5/1/prove/165-project-moon-lander.html
+
 
 File Format
     Not Applicable
 
 Error Handling
+    The game shouldn't crash if the user does anything weird. It should keep running with no problem, and user input shouldn't cause a crash. If any calculation causes the program to crash, those should be handled too.
