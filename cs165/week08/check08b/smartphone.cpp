@@ -15,7 +15,7 @@ void SmartPhone :: prompt()
 {
    promptNumber();
    cout << "Email: ";
-   // cin.ignore();
+   cin.ignore();
    getline(cin, email);
 }
 
