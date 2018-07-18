@@ -1,9 +1,6 @@
 #pragma once
-// #ifndef "point.h"
 #include "point.h"
-// #ifndef "velocity.h"
 #include "velocity.h"
-// #endif
 
 using namespace std;
 class Lander
