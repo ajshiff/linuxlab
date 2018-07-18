@@ -74,7 +74,6 @@ private:
    
    // TODO: declare your bird here (e.g., "Bird * bird;")
 
-
    /*************************************************
     * Private methods to help with the game logic.
     *************************************************/
