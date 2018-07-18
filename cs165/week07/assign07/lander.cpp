@@ -37,7 +37,7 @@ Velocity Lander :: getVelocity() const {
 * 
 **************************************************************************/
 bool Lander :: isAlive() {
-   if (shipAlive == false && lives > 1)
+   if (shipAlive == false && lives > 0)
    {
       shipAlive = true;
       lives--;

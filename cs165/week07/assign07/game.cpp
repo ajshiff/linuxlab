@@ -134,6 +134,12 @@ void Game :: draw(const Interface & ui)
    
    drawNumber(fuelLocation, lander.getFuel());
 
+   // AJSHIFF Adding Lives Display
+   Point livesLocation;
+   livesLocation.setX(topLeft.getX() + 100);
+   livesLocation.setY(topLeft.getY() - 5);
+   drawNumber(livesLocation, Lander::lives);
+
    // draw ground
    ground.draw();
 }

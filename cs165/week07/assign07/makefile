@@ -11,9 +11,11 @@
 #     buttons the user presses. It detects whether it's hit
 #     anything, and if it is near the landing pad.
 # Above and Beyond
-#     The moonlander has 3 tries or 'lives' to complete the level
+# --> The moonlander has 4 tries or 'lives' to complete the level
 #     before receiving the 'crashed' message.
-#     I made sure the thruster animation wouldn't go off after
+# --> Another UI Element was added to display the number of lives
+#     the player has left. This is achived using a static variable.
+# --> I made sure the thruster animation wouldn't go off after
 #     the user landed or crashed. The user also can't have
 #     negative fuel.
 ###############################################################
