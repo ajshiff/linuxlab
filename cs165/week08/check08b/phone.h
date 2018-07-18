@@ -15,6 +15,7 @@ private:
    int prefix;
    int suffix;
 public:
+   Phone();
    void promptNumber();
    void display();
 };

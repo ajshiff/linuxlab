@@ -14,6 +14,7 @@ class SmartPhone : Phone
 private:
    string email;
 public:
+   SmartPhone();
    void prompt();
    void display();
 };

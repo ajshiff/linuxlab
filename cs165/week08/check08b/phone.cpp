@@ -6,9 +6,15 @@
 using namespace std;
 // TODO: Put your phone class methods here...
 
+Phone :: Phone ()
+{
+   areaCode = 111;
+   prefix = 222;
+   suffix = 3333;
+}
+
 void Phone :: promptNumber()
 {
-   cout << "Phone:" << endl;
    cout << "Area Code: ";
    cin >> areaCode;
    cout << "Prefix: ";
@@ -19,6 +25,5 @@ void Phone :: promptNumber()
 
 void Phone :: display()
 {
-   cout << "Phone info:" << endl;
    cout << "(" << areaCode << ")" << prefix << "-" << suffix << endl;
 }
