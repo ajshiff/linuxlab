@@ -5,9 +5,17 @@
 # Author:
 #     Aaron Shiffler
 # Summary:
-#     Project 07: Summary Here!
+#     The ship now moves a certain number of pixels based on 
+#     the velocity components of the class, which receives a
+#     constant pull from gravity, and is altered based on the
+#     buttons the user presses. It detects whether it's hit
+#     anything, and if it is near the landing pad.
 # Above and Beyond
-#     Above and Beyone Details
+#     The moonlander has 3 tries or 'lives' to complete the level
+#     before receiving the 'crashed' message.
+#     I made sure the thruster animation wouldn't go off after
+#     the user landed or crashed. The user also can't have
+#     negative fuel.
 ###############################################################
 
 

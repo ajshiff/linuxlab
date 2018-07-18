@@ -14,7 +14,9 @@ private:
    int fuel;
    bool shipAlive;
    bool shipLanded;
+   // int lives;
 public:
+   static int lives;
    Lander();
    Point getPoint() const;
    Velocity getVelocity() const;

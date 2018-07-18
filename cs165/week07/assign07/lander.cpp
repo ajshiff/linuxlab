@@ -6,10 +6,13 @@
 
 using namespace std;
 
+int Lander :: lives;
+
 /*************************************************************************
 * 
 **************************************************************************/
 Lander :: Lander() {
+   lives = 3;
    shipAlive = true;
    shipLanded = false;
    point = Point(100,100);
@@ -34,7 +37,20 @@ Velocity Lander :: getVelocity() const {
 * 
 **************************************************************************/
 bool Lander :: isAlive() {
-   return shipAlive;
+   if (shipAlive == false && lives > 1)
+   {
+      shipAlive = true;
+      lives--;
+      fuel = 500;
+      point.setX(200);
+      point.setY(100);
+      velocity.setDx(-1);
+      velocity.setDy(0);
+   }
+   else
+   {
+      return shipAlive;
+   }
 }
 
 /*************************************************************************
@@ -55,7 +71,8 @@ int Lander :: getFuel() {
 * 
 **************************************************************************/
 bool Lander :: canThrust() {
-   if (fuel > 0 && isLanded() == false && isAlive() && isLanded() == false) {
+   if (fuel > 0 && isLanded() == false && isAlive() && isLanded() == false) 
+   {
       return true;
    } 
    else if (fuel < 0)
@@ -94,7 +111,6 @@ void Lander :: setFuel(int setFuel) {
 * 
 **************************************************************************/
 void Lander :: applyGravity(float gravity) {
-   // float gravityPower = -0.1; // Negative will make gravity pull ship down.
    float gravityPower = -1 * gravity; // Negative will make gravity pull ship down.
    velocity.setDy(velocity.getDy() + gravityPower);
 }
