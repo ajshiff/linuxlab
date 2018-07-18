@@ -6,22 +6,22 @@ using namespace std;
 
 FlyingObject :: FlyingObject()
 {
-
+   
 }
 
 Point FlyingObject :: getPoint()
 {
-
+   return Point;
 }
 
 Velocity FlyingObject :: getVelocity()
 {
-
+   return Velocity;
 }
 
 bool FlyingObject :: isAlive()
 {
-
+   return true;
 }
 
 void FlyingObject :: setPoint(Point setPoint)

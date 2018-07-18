@@ -12,4 +12,3 @@ private:
 public:
    Bullet();
    void fire(Point, float);
-}

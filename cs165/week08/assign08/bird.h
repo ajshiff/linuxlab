@@ -12,4 +12,4 @@ private:
 public:
    Bird(Point);
    void hit();
-}
+};

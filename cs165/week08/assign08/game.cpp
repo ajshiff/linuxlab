@@ -130,7 +130,7 @@ Bird* Game :: createBird()
    Bird* newBird = NULL;
 
    // TODO: Fill this in
-   
+//    newBird = Bird(Point);
    
    return newBird;
 }

@@ -18,8 +18,8 @@ LFLAGS = -lglut -lGLU -lGL
 ###############################################################
 # Build the main game
 ###############################################################
-a.out: driver.o game.o uiInteract.o uiDraw.o point.o rifle.o 
-	g++ driver.o game.o uiInteract.o uiDraw.o point.o rifle.o $(LFLAGS)
+a.out: driver.o game.o uiInteract.o uiDraw.o point.o rifle.o flyingObject.o bird.o bullet.o
+	g++ driver.o game.o uiInteract.o uiDraw.o point.o rifle.o flyingObject.o bird.o bullet.o $(LFLAGS)
 
 ###############################################################
 # Individual files
@@ -38,7 +38,7 @@ uiInteract.o: uiInteract.cpp uiInteract.h
 point.o: point.cpp point.h
 	g++ -c point.cpp
 
-game.o: game.cpp uiDraw.h uiInteract.h point.h rifle.h bullet.h birds.h
+game.o: game.cpp uiDraw.h uiInteract.h point.h rifle.h bullet.h bird.h
 	g++ -c game.cpp
 
 driver.o: game.h uiInteract.h driver.cpp
@@ -46,6 +46,15 @@ driver.o: game.h uiInteract.h driver.cpp
 
 rifle.o: rifle.h point.h uiDraw.h rifle.cpp
 	g++ -c rifle.cpp
+
+flyingObject.o: flyingObject.h flyingObject.cpp
+	g++ -c flyingObject.cpp
+
+bird.o: flyingObject.h bird.h bird.cpp
+	g++ -c bird.cpp
+
+bullet.o: flyingObject.h bullet.h bullet.cpp
+	g++ -c bullet.cpp
 
 #######################################################################
 # ADD YOUR ADDITIONAL RULES HERE!

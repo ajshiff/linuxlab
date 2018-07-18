@@ -9,7 +9,7 @@ class FlyingObject
 private:
    Point point;
    Velocity velocity;
-   bool object
+   bool object;
 public:
    FlyingObject();
    Point getPoint();
@@ -20,4 +20,4 @@ public:
    void kill();
    void advance();
    void draw();
-}
+};
