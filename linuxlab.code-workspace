@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/ajshiff/Documents/school"
+		},
+		{
+			"uri": "ssh://linuxlab/",
+			"name": "SSH FS - linuxlab"
+		}
+	]
+}
